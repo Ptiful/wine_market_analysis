@@ -55,7 +55,7 @@ A complete market analysis report that answer to these questions:
 - We want to highlight 10 wines to increase our sales, which ones should we choose and why?
 - We have a marketing budget for this year, which country should we prioritise and why?
 - We would like to give a price to the best winery, which one should we choose and why?
-- We has detected that a big cluster of customers like a specific combination of tastes. We have identified few `primary` `keywords` that matches this and we would like you to **find all the wines that have those keywords**. To ensure accuracy of our selection, ensure that **more than 10 users confirmed those keywords**. Also, identify the `flavor_groups` related to those keywords.
+- We have detected that a big cluster of customers like a specific combination of tastes. We have identified few `primary` `keywords` that matches this and we would like you to **find all the wines that have those keywords**. To ensure accuracy of our selection, ensure that **more than 10 users confirmed those keywords**. Also, identify the `flavor_groups` related to those keywords.
 	- Coffee
 	- Toast
 	- Green apple
@@ -70,7 +70,7 @@ A complete market analysis report that answer to these questions:
 
 - Optimise your solution to have the result as fast as possible.
 - Better visualisation.
-- One of our VIP client like `Cabernet Sauvignon`, he would like a top 5 recommandation, which wines would you recommend to him?
+- One of our VIP client like `Cabernet Sauvignon`, he would like a top 5 recommandation, which wines would you recommend to him? Based on everything you did previously, fine what recommandation would suit best for another recommandation than Cabernet Sauvignon to this client.
 - Do any recommandation on ways to improve the data, the database schema or typing.
 
 
