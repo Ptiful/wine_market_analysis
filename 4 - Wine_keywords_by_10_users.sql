@@ -11,7 +11,7 @@
 -- 	- cream 
 -- 	- citrus
 
-SELECT *
+SELECT wines.*
 FROM wines
 JOIN keywords_wine
 ON wines.id = keywords_wine.wine_id
