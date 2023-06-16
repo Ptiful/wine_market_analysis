@@ -70,6 +70,14 @@ with chart2:
     st.markdown(
         body=" Here, you'll be happy to see which country you need to prioritize so you can boomin."
     )
+
+    part1, part2, part3 = st.columns(3)
+    with part1:
+        st.image("database/usa.png", use_column_width="auto")
+    with part2:
+        st.image("database/france.png", use_column_width="auto")
+    with part3:
+        st.image("database/italy.png", use_column_width="auto")
 st.markdown("<hr>", unsafe_allow_html=True)
 
 
@@ -84,7 +92,7 @@ st.markdown(body="This winery has the best ratings average amongs all your wines
 st.markdown("<hr>", unsafe_allow_html=True)
 
 # Making chart4
-st.subheader(body="Arome")
+st.subheader(body="Aroma")
 wine_keywords_by_10_users = pd.read_sql_query(
     open("src/4 - Wine_keywords_by_10_users.sql", "r").read(), conn
 )
